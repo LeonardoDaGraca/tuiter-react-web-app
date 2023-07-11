@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Profile</title>
+        <title>Edit-Profile</title>
         <style>
             body {
             display: flex;
@@ -34,33 +34,43 @@
         </div>
         <div class="content">
         <p>
-            <a href="navigation.html">Back</a>
+            <a href="profile.html">Back</a>
         </p>
     
         <h1>Tuiter</h1>
     
-        <h2>Profile</h2>
+        <h2>Edit Profile</h2>
+
+        <a href="profile.html">Save</a>
         <img
             style="height: 200px; width: 100%;"
             src="https://www.yarddiant.com/images/web-development-studio.png"
         />
+        <input type="file"/>
+        <br />
         <img 
             width="48px"
             height="48px"
             src="https://miro.medium.com/v2/resize:fit:1400/1*xcbMfSs-_46il_eXXM1JmA.jpeg"   
         />
-        <a href="edit-profile.html">Edit profile</a> 
-        <h2>WebDev</h2> 
-            @WebDev
-        <p>Soccer, AI and food enthusiast, Web polymath, used to hate reality television, but now locked into every show</p>
-        <p>Joined February 2021</p> 
-        <p><b>100</b> Following <b>400</b> Followers</p>
-        <ul>
-            <li><a href="tuits.html">Tuits</a></li>
-            <li><a href="tuits-and-replies.html">Tuits & Replies</a></li>
-            <li><a href="media.html">Media</a></li>
-            <li><a href="likes.html">Likes</a></li>
-        </ul>
-        </div> 
+        <br />
+        <input type="file"/>
+        <hr>
+        <label for="name">Name</label>
+        <br />
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            value="WebDev" 
+            placeholder="Name" 
+            onclick="document.getElementById('name').focus();"
+        >
+        <hr>
+        <label for="bio">Bio</label>
+        <br />
+        <textarea id="bio" name="bio" cols="50" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </textarea>
+        </div>
     </body>
 </html>
