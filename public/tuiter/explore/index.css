@@ -1,0 +1,241 @@
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+   }
+
+.wd-ttr-whats-happening
+.fa-search {
+    left: 15px;
+    top: 10px;
+    }
+.wd-gear-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    }
+    
+.wd-search-container {
+    position: relative;
+    padding-right: 35px; 
+    }
+
+.nav-tabs {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+.nav-item {
+    margin-right: 10px;
+    }
+
+.nav-link {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    }
+
+.tab-text {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    }
+
+.nav-link.active .tab-text {
+    border-bottom-color: blue;
+    }
+
+.image-container {
+    position: relative;
+    width: 400px;
+    }
+
+.image-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    }
+
+.wd-tuits-list {
+    list-style: none;
+    padding: 15;
+    }
+    
+.wd-tuits-list li {
+     margin-bottom: 10px;
+    }
+    
+.wd-trend-category {
+    color: #1DA1F2;
+    font-size: 14px;
+    }
+    
+.wd-tuit-content {
+    display: flex;
+    align-items: center;
+    }
+    
+.wd-tuit-topic {
+    font-weight: bold;
+    margin-right: 10px;
+    }
+    
+.wd-tuit-count {
+    font-size: 12px;
+    color: #657786;
+    margin-top: 2px
+    }
+.wd-explore-links {
+    margin-bottom: 20px;
+    }
+    
+.list-group-link {
+        display: flex;
+        align-items: center;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+.list-group-link i {
+    margin-right: 8px;
+    }
+    
+.list-group-link.active,
+.list-group-link:hover {
+    color: blue;
+    }
+    
+.btn-pill {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    }
+    
+.wd-who-to-follow .row {
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+.wd-who-to-follow img {
+    border-radius: 50%;
+    }
+    
+.wd-who-to-follow h6 {
+    margin-bottom: 10px;
+    }
+
+.wd-who-to-follow .col-3 {
+    display: flex;
+    align-items: center;
+    }
+
+.wd-who-to-follow .col-6 {
+    padding-left: 10px;
+    }
+
+.wd-who-to-follow .btn-pill {
+    border-radius: 50px;
+    padding: 2px 2px;
+    font-size: 14px;
+    }
+    
+.wd-who-to-follow p {
+    color: #657786;
+    font-size: 12px;
+    margin-bottom: 0;
+    }
+    
+.wd-tuits-list .row {
+    align-items: flex-start;
+    flex-direction: row;
+    }
+ .wd-bordered-list {
+    border: 2px solid #e6ecf0;
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+      
+
+.wd-avatar-container{
+    display: flex;
+    align-items: center;
+}
+
+.wd-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #e6ecf0;
+    padding: 2px; 
+}
+
+.wd-avatar-follow {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-who-to-follow .list-group-item {
+    border: none;
+    padding: 0;
+}
+    
+.wd-tuits-list .row i {
+    font-size: 24px;
+    }
+    
+.wd-tuits-list .row .col-md-8 {
+    flex-grow: 1;
+    }
+    
+.wd-tuits-list .row .col-md-8 .wd-tuit-content {
+    margin-top: auto;
+     margin-bottom: auto;
+    }
+    
+.wd-tuits-list .row .col-md-8 .wd-tuit-topic {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+.wd-tuits-list .row .col-md-8 .wd-tuit-count {
+        font-size: 12px;
+        color: #657786;
+        margin-top: 2px;
+    }
+    
+.wd-tuits-list .row .col-md-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.wd-tuits-list .row .col-md-4 i {
+        background-color: #E6ECF0;
+        border-radius: 50%;
+        color: #657786;
+        font-size: 24px;
+        padding: 8px;
+    }
+
+@media (max-width: 1200px) {
+    .list-group-link .list-group-label {
+        display: none;
+        }
+    }
+
+@media (max-width: 992px) {
+    .list-group-link .list-group-text {
+        display: none;
+        }
+    }
+
+@media (max-width: 768px) {
+    .list-group-link .list-group-label {
+        display: none;
+        }
+    }
