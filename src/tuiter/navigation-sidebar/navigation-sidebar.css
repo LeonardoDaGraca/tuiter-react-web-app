@@ -1,0 +1,11 @@
+/* navigation-sidebar.css */
+@media (max-width: 768px) {
+  .list-group-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .list-group-item .col-xl-10 {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",
+    "image": "spacex.jpeg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 345,
+    "topic": "Automotive",
+    "userName": "Tesla",
+    "title": "Our multichannel audio algorithm enables stereo content to be upmixed in real time & adjusts the sound system relative to traffic noise.",
+    "time": "3h",
+    "image": "tesla.jpeg",
+    "liked": true,
+    "replies": 345,
+    "retuits": 567,
+    "likes": 3456,
+    "handle": "@tesla",
+    "tuit": "This makes for an immersive listening experience no matter what's happening around you.🎵"
+  },
+  {
+    "_id": 456,
+    "topic": "Aerospace",
+    "userName": "NASA",
+    "title": "It’s a bird! It’s a plane! It’s a supermoon!",
+    "time": "4h",
+    "image": "nasa-avatar.jpg",
+    "liked": true,
+    "replies": 455,
+    "retuits": 677,
+    "likes": 2467,
+    "handle": "@NASA",
+    "tuit": "A supermoon occurs when a full moon occurs near the Moon’s closest point to Earth in its monthly orbit. Catch the next one now through Thursday, Aug. 3, and reply with your favorite photos."
+  }
+]
