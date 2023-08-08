@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faHashtag, faBell, faEnvelope, faBookmark, faList, faUser, faEllipsisH } from "@fortawesome/free-solid-svg-icons";
+import { useSelector } from "react-redux";
 import "./navigation-sidebar.css";
 
 
@@ -9,6 +10,7 @@ const NavigationSidebar = () => {
  const { pathname } = useLocation();
  const [ignore, tuiter, active] = pathname.split("/");
  const links = ["home",     "explore",   "notifications", "messages", "bookmarks", "lists", "profile",  "more"];
+ const { currentUser } = useSelector((state) => state.user);
 
  const linkIcons = {
     home: faHome,
@@ -44,6 +46,9 @@ const NavigationSidebar = () => {
           {!isSmallScreen && link}
         </Link>
       ))}
+      {!currentUser && <Link className="list-group" to="/tuiter/login">   Login   </Link>}
+      {!currentUser && <Link className="list-group" to="/tuiter/register">Register</Link>}
+      {currentUser && <Link className="list-group" to="/tuiter/profile"> Profile </Link>}
     </div>
   );
 };
